@@ -1,8 +1,7 @@
-|Nome|Download de Pacientes|
+|Nome| Estado da Empresa|
 |---|---|
-|Ator|Funcionário Dosimagem|
+|Ator| Funcionário Dosimagem|
 |Descrição| Este caso de uso descreve o processo pelo qual um funcionário autorizado pode baixar informações de pacientes de um sistema de saúde para análise ou arquivamento.|
 |Pré-condição| O funcionário tem credenciais válidas para acessar o sistema de saúde.|
-|Fluxo Principal| O funcionário autorizado acessa o sistema de saúde e então navega até a seção de gestão de pacientes. O funcionário seleciona a opção de download de informações de pacientes e seleciona os critérios desejados para filtrar. Após isso o sistema gera um arquivo contendo as informações dos pacientes conforme os critérios selecionados e o funcionário baixa esse arquivo|
-|Pós-condição| O funcionário recebe um arquivo contendo as informações dos pacientes de acordo com os critérios selecionados.|
-
+|Fluxo Principal| O funcionário autorizado acessa o sistema de saúde e seleciona a opção estado da empresa”. O sistema apresenta uma tela com informações sobre o status atual da empresa, incluindo dados como download de calibragem e download de pacientes pendentes e finalizados. O funcionário também pode alterar e atualizar as pendências.|
+|Pós-condição| O funcionário vai ter uma visão detalhada e atualizada do estado da empresa.|
